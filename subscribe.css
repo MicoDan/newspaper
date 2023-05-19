@@ -1,0 +1,77 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20vh;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-top: 0;
+  }
+  a{
+    text-decoration: none !important;
+    color: black;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  .subscribe{
+    border-radius: 100px;
+    width: 7vw;
+    height: 4vh;
+    color: white;
+    background-color: red;
+    border: none; 
+  }
+  
+  .subscribe:active{
+    background-color: rgb(144, 8, 8);
+    transition: 2s;
+  }
+  .subscribe:hover{
+    background-color: rgb(156, 9, 9);
+    transition: 2s;
+  }
+  
+  input[type="text"],
+  input[type="email"], 
+  input[type="tel"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  
+  .submit {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 2em;
+    text-decoration: none;
+  }
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -3vh;
+    margin-left: -3vw;
+    margin-right: -3vw;
+    margin-bottom: 1em;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #104e8f;
+  }
+  
